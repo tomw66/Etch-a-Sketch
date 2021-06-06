@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  }
+#container {
+    width: 700px;
+    height: 700px;
+    border: solid;
+    display: grid;
+}
+button{
+  font-size: 25px;
+  border: none;
+  border-radius: 2em;
+  padding: 15px 20px;
+  background-color: #434d81;
+  box-shadow: 5px 5px #212228;
+  color: aliceblue;
+  font-weight: 300;
+  font-family:'Roboto',sans-serif;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+button:hover{
+  background-color: #323960;
+}
